@@ -23,7 +23,7 @@ namespace TextBasedGame
             att = RNG.Next(25, 50);
             wiz = RNG.Next(10, 30);
             crit = RNG.Next(5, 15);
-            luck = RNG.Next(5, 20);
+            luck = RNG.Next(1, 20);
         }
         public void show()
         {

@@ -25,6 +25,7 @@ namespace TextBasedGame
 
             do
             {
+                choice = 0;
                 Console.WriteLine("You can contiue forward (1), or turn around and leave (2)... ");
                 ans = Console.ReadLine();
 
@@ -74,7 +75,7 @@ namespace TextBasedGame
             Console.WriteLine("To the east you see a small pool of water with what appears to be a path on the wall next to it.");
             do
             {
-
+                choice = 0;
                 Console.WriteLine("(1) West...");
                 Console.WriteLine("(2) East...");
                 ans = Console.ReadLine();
@@ -147,6 +148,7 @@ namespace TextBasedGame
 
                 do
                 {
+                    choice = 0;
                     Console.WriteLine("Would you like to drink from the fountain?");
                     Console.WriteLine("(1) Yes");
                     Console.WriteLine("(2) No");
@@ -159,6 +161,7 @@ namespace TextBasedGame
                     catch (Exception)
                     {
                         Console.WriteLine("Try again...");
+                        Console.ReadLine();
                     }
                 }
                 while (choice != 1 && choice != 2);
@@ -182,6 +185,7 @@ namespace TextBasedGame
 
             do
             {
+                choice = 0;
                 Console.WriteLine("(1) North");
                 Console.WriteLine("(2) South");
                 Console.WriteLine("(3) West");
@@ -240,6 +244,7 @@ namespace TextBasedGame
 
                 do
                 {
+                    choice = 0;
                     Console.WriteLine("Would you like to travel North, East, West, or South...");
                     Console.WriteLine("(1) North");
                     Console.WriteLine("(2) East");
@@ -281,6 +286,7 @@ namespace TextBasedGame
             }
             do
             {
+                choice = 0;
                 Console.WriteLine("Would you like to travel North, East, West, or South...");
                 Console.WriteLine("(1) North");
                 Console.WriteLine("(2) East");
@@ -351,6 +357,7 @@ namespace TextBasedGame
                 Console.WriteLine("You can leave this room through the north exit or the east exit.");
                 do
                 {
+                    choice = 0;
                     Console.WriteLine("(1) North");
                     Console.WriteLine("(2) East");
                     ans = Console.ReadLine();

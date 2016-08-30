@@ -168,6 +168,7 @@ namespace TextBasedGame
 
             do
             {
+                choice = 0;
                 Console.WriteLine("(1) Physical Damage");
                 Console.WriteLine("(2) Magical Damage");
                 Console.WriteLine("Or...");
@@ -538,7 +539,7 @@ namespace TextBasedGame
             }
             do
             {
-
+                choice = 0;
                 Console.WriteLine("Attack the minotaur with: ");
                 Console.WriteLine("(1) Physical Damage");
                 Console.WriteLine("(2) Magical Damage");
@@ -624,6 +625,7 @@ namespace TextBasedGame
                         Console.ReadLine();
                         Console.Clear();
 
+                        choice = 0;
                         Console.WriteLine("Attack the minotaur with: ");
                         Console.WriteLine("(1) Physical Damage");
                         Console.WriteLine("(2) Magical Damage");
@@ -661,6 +663,8 @@ namespace TextBasedGame
 
             do
             {
+                choice = 0;
+
                 Console.Clear();
                 Console.WriteLine("Current gold: " + wallet);
                 Console.WriteLine();
@@ -813,7 +817,7 @@ namespace TextBasedGame
 
                 do
                 {
-
+                    choice = 0;
                     Console.WriteLine("(1) Physical...");
                     Console.WriteLine("(2) Magical...");
                     ans = Console.ReadLine();
